@@ -43,7 +43,7 @@ nav a.active {
 @media screen and (max-width: 600px) {
     nav {
         position: fixed;
-        left: 43%;
+        left: 42%;
     }
 
     
