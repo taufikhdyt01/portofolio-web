@@ -1,21 +1,25 @@
 .experience__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
+.experience__container > div{
+    background: transparent;
+    padding: 1rem 3rem;
+    cursor: default;
+    border-radius: 2rem;
+    border-color: var(--color-bg-variant);
+    border: 1px solid;
 
-.experience__container > div {
+}
+
+.experience__container > div:hover {
     background: var(--color-bg-variant);
-    padding: 2rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition)
 }
-.experience__container > div:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
+
 .experience__container > div h3{
     text-align: center;
     margin-bottom: 2rem;
@@ -43,12 +47,12 @@
 
     .experience__container > div {
         width: 80%;
-        padding: 2rem;
+        padding: 1rem;
         margin: 0 auto;
     }
 
     .experience__content{
-        padding-left: 3rem;
+        padding-left: 2rem;
         padding-top: 1rem;
         padding-right: 1rem;
     }
