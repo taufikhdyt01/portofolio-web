@@ -32,7 +32,7 @@ const Experience = () => {
                 <small className='text-light'>Successfully developing a website or landing page with the theme of business strategy in the 4.0 era</small> <br /> <br />
                 <small className='text-light'>Won 2nd place in the landing page competition in a series of pima posma events at Amikom University of Yogyakarta</small>
               </div>
-            </article>
+            </article> 
           </div>
         </div>
 
@@ -51,7 +51,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Junior Designer at Gebyog Wedding Art</h4>
-                <small className='text-light'>Designing address plans on wedding invitations, designing souvenir and delivery accessories</small>
+                <small className='text-light'>Successfully designed an address plan on a wedding invitation, designed a wedding gift souvenir and accessories</small>
               </div>
             </article>
           </div>
