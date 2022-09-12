@@ -97,7 +97,7 @@ const Portofolio = () => {
               </div>
             </article>
 
-            <article data-aos="zoom-in-down" className="portofolio__items">
+            <article data-aos="zoom-in-down" data-aos-duration="3000" className="portofolio__items">
               <div className="portofolio__items-image">
                 <img src={UIUX3} alt="Portofolio1" />
               </div>

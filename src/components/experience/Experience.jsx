@@ -50,7 +50,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Junior Designer at Gebyog Wedding Art</h4>
+                <h4>Junior Graphic Designer at Gebyog Wedding Art</h4>
                 <small className='text-light'>Successfully designed an address plan on a wedding invitation, designed a wedding gift souvenir and accessories</small>
               </div>
             </article>
